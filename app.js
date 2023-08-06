@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 3002;
+const port = 3009;
 
 // Middleware para analisar o corpo das solicitações POST
 app.use(bodyParser.json());
